@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f6f7f9;
+  color: #1d2330;
+}
+
+.preview h1 { font-size: 1.9rem; font-weight: 700; margin: 0 0 0.8rem; }
+.preview h2 { font-size: 1.4rem; font-weight: 700; margin: 1.4rem 0 0.6rem; }
+.preview h3 { font-size: 1.15rem; font-weight: 600; margin: 1.2rem 0 0.5rem; }
+.preview p { margin: 0 0 0.9rem; line-height: 1.7; }
+.preview ul { list-style: disc; padding-left: 1.4rem; margin-bottom: 0.9rem; }
+.preview ol { list-style: decimal; padding-left: 1.4rem; margin-bottom: 0.9rem; }
+.preview li { margin-bottom: 0.25rem; line-height: 1.6; }
+.preview a { color: #3b5bdb; text-decoration: underline; }
+.preview blockquote { border-left: 3px solid #cfd4de; padding-left: 1rem; color: #5b6272; margin: 0 0 0.9rem; }
+.preview code { background: #eceef3; padding: 0.1rem 0.35rem; border-radius: 4px; font-family: "JetBrains Mono", monospace; font-size: 0.88em; }
+.preview pre { background: #1d2330; color: #e8eaf0; padding: 1rem; border-radius: 8px; overflow-x: auto; margin-bottom: 0.9rem; }
+.preview pre code { background: transparent; padding: 0; color: inherit; }
+.preview hr { border: none; border-top: 1px solid #dfe2e8; margin: 1.2rem 0; }
+.preview img { max-width: 100%; }
